@@ -1,0 +1,188 @@
+{
+  "archiveVersion": "1",
+  "classes": {},
+  "objectVersion": "76",
+  "objects": {
+    "BF01": { "isa": "PBXBuildFile", "fileRef": "SF01" },
+    "BF02": { "isa": "PBXBuildFile", "fileRef": "SF02" },
+    "BF03": { "isa": "PBXBuildFile", "fileRef": "SF03" },
+    "BF04": { "isa": "PBXBuildFile", "fileRef": "SF04" },
+    "BF05": { "isa": "PBXBuildFile", "fileRef": "SF05" },
+    "BF06": { "isa": "PBXBuildFile", "fileRef": "SF06" },
+    "BF07": { "isa": "PBXBuildFile", "fileRef": "SF07" },
+    "BF08": { "isa": "PBXBuildFile", "fileRef": "SF08" },
+    "BF09": { "isa": "PBXBuildFile", "fileRef": "SF09" },
+    "BF10": { "isa": "PBXBuildFile", "fileRef": "SF10" },
+    "SF01": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "AppDelegate.swift", "sourceTree": "<group>" },
+    "SF02": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "SceneDelegate.swift", "sourceTree": "<group>" },
+    "SF03": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "ProfileViewController.swift", "sourceTree": "<group>" },
+    "SF04": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "HotReload.swift", "sourceTree": "<group>" },
+    "SF05": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "HotReloadCommon.swift", "sourceTree": "<group>" },
+    "SF06": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "HotReloadServer.swift", "sourceTree": "<group>" },
+    "SF07": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "InjectionClient.swift", "sourceTree": "<group>" },
+    "SF08": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "InjectionLoader.swift", "sourceTree": "<group>" },
+    "SF09": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "UIKit+HotReload.swift", "sourceTree": "<group>" },
+    "SF10": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "SwiftUI+HotReload.swift", "sourceTree": "<group>" },
+    "PL01": { "isa": "PBXFileReference", "lastKnownFileType": "text.plist.xml", "path": "Info.plist", "sourceTree": "<group>" },
+    "PR01": {
+      "isa": "PBXFileReference",
+      "explicitFileType": "wrapper.application",
+      "includeInIndex": "NO",
+      "path": "DemoUIKit.app",
+      "sourceTree": "BUILT_PRODUCTS_DIR"
+    },
+    "GR01": {
+      "isa": "PBXGroup",
+      "children": [ "GR02", "GR03", "GR04" ],
+      "sourceTree": "<group>"
+    },
+    "GR02": {
+      "isa": "PBXGroup",
+      "children": [ "SF01", "SF02", "SF03", "PL01" ],
+      "path": "Sources/DemoUIKit",
+      "sourceTree": "SOURCE_ROOT"
+    },
+    "GR03": {
+      "isa": "PBXGroup",
+      "children": [ "SF04", "SF05", "SF06", "SF07", "SF08", "SF09", "SF10" ],
+      "name": "HotReloadKit",
+      "path": "../HotReloadKit/Sources/HotReloadKit",
+      "sourceTree": "SOURCE_ROOT"
+    },
+    "GR04": {
+      "isa": "PBXGroup",
+      "children": [ "PR01" ],
+      "name": "Products",
+      "sourceTree": "<group>"
+    },
+    "NT01": {
+      "isa": "PBXNativeTarget",
+      "buildConfigurationList": "CL02",
+      "buildPhases": [ "SP01", "FP01" ],
+      "buildRules": [],
+      "dependencies": [],
+      "name": "DemoUIKit",
+      "productName": "DemoUIKit",
+      "productReference": "PR01",
+      "productType": "com.apple.product-type.application"
+    },
+    "PJ01": {
+      "isa": "PBXProject",
+      "attributes": {
+        "BuildIndependentTargetsInParallel": "YES",
+        "LastUpgradeCheck": "2600",
+        "TargetAttributes": {
+          "NT01": { "CreatedOnToolsVersion": "26.0" }
+        }
+      },
+      "buildConfigurationList": "CL01",
+      "compatibilityVersion": "Xcode 14.0",
+      "developmentRegion": "en-US",
+      "hasScannedForEncodings": "NO",
+      "knownRegions": [ "en", "Base" ],
+      "mainGroup": "GR01",
+      "productRefGroup": "GR04",
+      "projectDirPath": "",
+      "projectRoot": "",
+      "targets": [ "NT01" ]
+    },
+    "SP01": {
+      "isa": "PBXSourcesBuildPhase",
+      "buildActionMask": "2147483647",
+      "files": [ "BF01", "BF02", "BF03", "BF04", "BF05", "BF06", "BF07", "BF08", "BF09", "BF10" ],
+      "runOnlyForDeploymentPostprocessing": "NO"
+    },
+    "FP01": {
+      "isa": "PBXFrameworksBuildPhase",
+      "buildActionMask": "2147483647",
+      "files": [],
+      "runOnlyForDeploymentPostprocessing": "NO"
+    },
+    "BC01": {
+      "isa": "XCBuildConfiguration",
+      "buildSettings": {
+        "ALWAYS_SEARCH_USER_PATHS": "NO",
+        "CLANG_ENABLE_MODULES": "YES",
+        "IPHONEOS_DEPLOYMENT_TARGET": "17.0",
+        "OTHER_SWIFT_FLAGS": [
+          "$(inherited)",
+          "-Xfrontend",
+          "-enable-implicit-dynamic"
+        ],
+        "SDKROOT": "iphoneos",
+        "SWIFT_ACTIVE_COMPILATION_CONDITIONS": "DEBUG",
+        "SWIFT_VERSION": "5.0",
+        "TARGETED_DEVICE_FAMILY": "1,2"
+      },
+      "name": "Debug"
+    },
+    "BC02": {
+      "isa": "XCBuildConfiguration",
+      "buildSettings": {
+        "ALWAYS_SEARCH_USER_PATHS": "NO",
+        "CLANG_ENABLE_MODULES": "YES",
+        "IPHONEOS_DEPLOYMENT_TARGET": "17.0",
+        "SDKROOT": "iphoneos",
+        "SWIFT_VERSION": "5.0",
+        "TARGETED_DEVICE_FAMILY": "1,2"
+      },
+      "name": "Release"
+    },
+    "TC01": {
+      "isa": "XCBuildConfiguration",
+      "buildSettings": {
+        "CODE_SIGN_STYLE": "Automatic",
+        "DEVELOPMENT_TEAM": "MUM3QP6W58",
+        "INFOPLIST_FILE": "Sources/DemoUIKit/Info.plist",
+        "IPHONEOS_DEPLOYMENT_TARGET": "17.0",
+        "LD_RUNPATH_SEARCH_PATHS": [ "$(inherited)", "@executable_path/Frameworks" ],
+        "OTHER_LDFLAGS": [
+          "$(inherited)",
+          "-Xlinker",
+          "-interposable"
+        ],
+        "OTHER_SWIFT_FLAGS": [
+          "$(inherited)",
+          "-Xfrontend",
+          "-enable-implicit-dynamic"
+        ],
+        "PRODUCT_BUNDLE_IDENTIFIER": "com.hotreload.DemoUIKit",
+        "PRODUCT_NAME": "$(TARGET_NAME)",
+        "SWIFT_VERSION": "5.0",
+        "TARGETED_DEVICE_FAMILY": "1,2"
+      },
+      "name": "Debug"
+    },
+    "TC02": {
+      "isa": "XCBuildConfiguration",
+      "buildSettings": {
+        "INFOPLIST_FILE": "Sources/DemoUIKit/Info.plist",
+        "IPHONEOS_DEPLOYMENT_TARGET": "17.0",
+        "LD_RUNPATH_SEARCH_PATHS": [ "$(inherited)", "@executable_path/Frameworks" ],
+        "OTHER_LDFLAGS": [
+          "$(inherited)",
+          "-Xlinker",
+          "-interposable"
+        ],
+        "PRODUCT_BUNDLE_IDENTIFIER": "com.hotreload.DemoUIKit",
+        "PRODUCT_NAME": "$(TARGET_NAME)",
+        "SWIFT_VERSION": "5.0",
+        "TARGETED_DEVICE_FAMILY": "1,2"
+      },
+      "name": "Release"
+    },
+    "CL01": {
+      "isa": "XCConfigurationList",
+      "buildConfigurations": [ "BC01", "BC02" ],
+      "defaultConfigurationIsVisible": "NO",
+      "defaultConfigurationName": "Release"
+    },
+    "CL02": {
+      "isa": "XCConfigurationList",
+      "buildConfigurations": [ "TC01", "TC02" ],
+      "defaultConfigurationIsVisible": "NO",
+      "defaultConfigurationName": "Release"
+    }
+  },
+  "rootObject": "PJ01"
+}

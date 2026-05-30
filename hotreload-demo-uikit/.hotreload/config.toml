@@ -1,0 +1,15 @@
+[project]
+project_path = "Sources/DemoUIKit"
+scheme = "DemoUIKit"
+module_name = "DemoUIKit"
+bundle_id = "com.hotreload.DemoUIKit"
+target = "arm64-apple-ios-simulator"
+sdk_path = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk"
+
+[injection]
+http_port = 9876
+app_port = 8899
+app_host = "127.0.0.1"
+watch_paths = ["Sources/DemoUIKit"]
+watch_extensions = ["swift"]
+debounce_ms = 150

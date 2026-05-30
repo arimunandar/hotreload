@@ -1,0 +1,16 @@
+[project]
+project_path = "/Users/ari/Projects/CLI/hotreload/hotreload-demo/DemoApp.xcodeproj"
+scheme = "DemoApp"
+module_name = "DemoApp"
+target = "arm64-apple-ios-simulator"
+sdk_path = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk"
+
+[injection]
+http_port = 9876
+app_port = 8899
+app_host = "127.0.0.1"
+watch_paths = [
+    "Sources",
+]
+watch_extensions = ["swift"]
+debounce_ms = 150

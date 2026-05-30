@@ -1,0 +1,15 @@
+{
+  "originHash" : "7ae62c9f33cc22898cb026efe8ab48506d98042c80bb2af350d22f192e600618",
+  "pins" : [
+    {
+      "identity" : "hotreloadkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/arimunandar/HotReloadKit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7042a83438b892bcf47a507f7dead7b6fc6b5e85"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -1,0 +1,290 @@
+{
+  "archiveVersion": "1",
+  "classes": {},
+  "objectVersion": "76",
+  "objects": {
+    "695818030CF14F50BA5F3945": {
+      "isa": "PBXBuildFile",
+      "fileRef": "37C859E378AB40AEAAD6FE66"
+    },
+    "655A430842324789B05EC3A4": {
+      "isa": "PBXBuildFile",
+      "fileRef": "F19D388001C340D4B8701D18"
+    },
+    "TD01": { "isa": "PBXBuildFile", "fileRef": "TF01" },
+    "TD02": { "isa": "PBXBuildFile", "fileRef": "TF02" },
+    "TD03": { "isa": "PBXBuildFile", "fileRef": "TF03" },
+    "TD04": { "isa": "PBXBuildFile", "fileRef": "TF04" },
+    "TD05": { "isa": "PBXBuildFile", "fileRef": "TF05" },
+    "TD06": { "isa": "PBXBuildFile", "fileRef": "TF06" },
+    "TD07": { "isa": "PBXBuildFile", "fileRef": "TF07" },
+    "TD08": { "isa": "PBXBuildFile", "fileRef": "TF08" },
+    "TD09": { "isa": "PBXBuildFile", "fileRef": "TF09" },
+    "SPM_BF01": {
+      "isa": "PBXBuildFile",
+      "productRef": "SPM_PD01"
+    },
+    "TF01": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "TodoModel.swift", "sourceTree": "<group>" },
+    "TF02": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "TodoStore.swift", "sourceTree": "<group>" },
+    "TF03": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "TodoStatsView.swift", "sourceTree": "<group>" },
+    "TF04": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "TodoFilterBar.swift", "sourceTree": "<group>" },
+    "TF05": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "TodoRowView.swift", "sourceTree": "<group>" },
+    "TF06": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "AddTodoSheet.swift", "sourceTree": "<group>" },
+    "TF07": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "TodoEmptyView.swift", "sourceTree": "<group>" },
+    "TF08": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "GreetingBanner.swift", "sourceTree": "<group>" },
+    "TF09": { "isa": "PBXFileReference", "lastKnownFileType": "sourcecode.swift", "path": "TodoDetailView.swift", "sourceTree": "<group>" },
+    "7991955C580842E482CE5F50": {
+      "isa": "PBXBuildFile",
+      "fileRef": "1EFCB80015A745B6A483DF15"
+    },
+    "37C859E378AB40AEAAD6FE66": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "sourcecode.swift",
+      "path": "DemoApp.swift",
+      "sourceTree": "<group>"
+    },
+    "F19D388001C340D4B8701D18": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "sourcecode.swift",
+      "path": "ContentView.swift",
+      "sourceTree": "<group>"
+    },
+    "A098F6A970FB4BAD82273D80": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "text.plist.xml",
+      "path": "Info.plist",
+      "sourceTree": "<group>"
+    },
+    "1EFCB80015A745B6A483DF15": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "folder.assetcatalog",
+      "path": "Assets.xcassets",
+      "sourceTree": "<group>"
+    },
+    "C9099311A4D44E6BB488163E": {
+      "isa": "PBXFileReference",
+      "explicitFileType": "wrapper.application",
+      "includeInIndex": "NO",
+      "path": "DemoApp.app",
+      "sourceTree": "BUILT_PRODUCTS_DIR"
+    },
+    "759579674FAA4792BE9045B1": {
+      "isa": "PBXGroup",
+      "children": [
+        "DA4B0D85C45547EABF3D51F2",
+        "3DA777AD1FD84210A69D9829"
+      ],
+      "sourceTree": "<group>"
+    },
+    "DA4B0D85C45547EABF3D51F2": {
+      "isa": "PBXGroup",
+      "children": [
+        "37C859E378AB40AEAAD6FE66",
+        "F19D388001C340D4B8701D18",
+        "TF01", "TF02", "TF03", "TF04", "TF05", "TF06", "TF07", "TF08", "TF09",
+        "A098F6A970FB4BAD82273D80",
+        "1EFCB80015A745B6A483DF15"
+      ],
+      "path": "Sources/DemoApp",
+      "sourceTree": "SOURCE_ROOT"
+    },
+    "3DA777AD1FD84210A69D9829": {
+      "isa": "PBXGroup",
+      "children": [
+        "C9099311A4D44E6BB488163E"
+      ],
+      "name": "Products",
+      "sourceTree": "<group>"
+    },
+    "790A8F0808544203A1ED5FB7": {
+      "isa": "PBXNativeTarget",
+      "buildConfigurationList": "20A850EAA51E40139F7F891E",
+      "buildPhases": [
+        "BEEEB1DBBC204DF296D8A44B",
+        "1AD08C7F5ED7461EB86A279D",
+        "F09F6C4ABDFB44839B351955"
+      ],
+      "buildRules": [],
+      "dependencies": [],
+      "name": "DemoApp",
+      "packageProductDependencies": [
+        "SPM_PD01"
+      ],
+      "productName": "DemoApp",
+      "productReference": "C9099311A4D44E6BB488163E",
+      "productType": "com.apple.product-type.application"
+    },
+    "F0964F5C60A94526ACA504DE": {
+      "isa": "PBXProject",
+      "attributes": {
+        "BuildIndependentTargetsInParallel": "YES",
+        "LastSwiftUpdateCheck": "2600",
+        "LastUpgradeCheck": "2600",
+        "TargetAttributes": {
+          "790A8F0808544203A1ED5FB7": {
+            "CreatedOnToolsVersion": "26.0"
+          }
+        }
+      },
+      "buildConfigurationList": "0B79450CDF8B463F8916A67D",
+      "compatibilityVersion": "Xcode 14.0",
+      "developmentRegion": "en-US",
+      "hasScannedForEncodings": "NO",
+      "knownRegions": [
+        "en",
+        "Base"
+      ],
+      "mainGroup": "759579674FAA4792BE9045B1",
+      "packageReferences": [
+        "SPM_PR01"
+      ],
+      "productRefGroup": "3DA777AD1FD84210A69D9829",
+      "projectDirPath": "",
+      "projectRoot": "",
+      "targets": [
+        "790A8F0808544203A1ED5FB7"
+      ]
+    },
+    "F09F6C4ABDFB44839B351955": {
+      "isa": "PBXResourcesBuildPhase",
+      "buildActionMask": "2147483647",
+      "files": [
+        "7991955C580842E482CE5F50"
+      ],
+      "runOnlyForDeploymentPostprocessing": "NO"
+    },
+    "1AD08C7F5ED7461EB86A279D": {
+      "isa": "PBXFrameworksBuildPhase",
+      "buildActionMask": "2147483647",
+      "files": [
+        "SPM_BF01"
+      ],
+      "runOnlyForDeploymentPostprocessing": "NO"
+    },
+    "BEEEB1DBBC204DF296D8A44B": {
+      "isa": "PBXSourcesBuildPhase",
+      "buildActionMask": "2147483647",
+      "files": [
+        "695818030CF14F50BA5F3945",
+        "655A430842324789B05EC3A4",
+        "TD01", "TD02", "TD03", "TD04", "TD05", "TD06", "TD07", "TD08", "TD09"
+      ],
+      "runOnlyForDeploymentPostprocessing": "NO"
+    },
+    "03E868C593934A84BBABBA95": {
+      "isa": "XCBuildConfiguration",
+      "buildSettings": {
+        "ALWAYS_SEARCH_USER_PATHS": "NO",
+        "CLANG_ENABLE_MODULES": "YES",
+        "IPHONEOS_DEPLOYMENT_TARGET": "17.0",
+        "OTHER_SWIFT_FLAGS": [
+          "$(inherited)",
+          "-Xfrontend",
+          "-enable-implicit-dynamic"
+        ],
+        "SDKROOT": "iphoneos",
+        "SWIFT_ACTIVE_COMPILATION_CONDITIONS": "DEBUG",
+        "ONLY_ACTIVE_ARCH": "YES",
+        "SWIFT_ENABLE_EXPLICIT_MODULES": "NO",
+        "SWIFT_VERSION": "5.0",
+        "TARGETED_DEVICE_FAMILY": "1,2"
+      },
+      "name": "Debug"
+    },
+    "8FF02CBAE7714EF5A6365D75": {
+      "isa": "XCBuildConfiguration",
+      "buildSettings": {
+        "ALWAYS_SEARCH_USER_PATHS": "NO",
+        "CLANG_ENABLE_MODULES": "YES",
+        "IPHONEOS_DEPLOYMENT_TARGET": "17.0",
+        "SDKROOT": "iphoneos",
+        "ONLY_ACTIVE_ARCH": "YES",
+        "SWIFT_ENABLE_EXPLICIT_MODULES": "NO",
+        "SWIFT_VERSION": "5.0",
+        "TARGETED_DEVICE_FAMILY": "1,2"
+      },
+      "name": "Release"
+    },
+    "75FE9C59FC2C424D9C12949A": {
+      "isa": "XCBuildConfiguration",
+      "buildSettings": {
+        "CODE_SIGN_STYLE": "Automatic",
+        "DEVELOPMENT_TEAM": "MUM3QP6W58",
+        "INFOPLIST_FILE": "Sources/DemoApp/Info.plist",
+        "IPHONEOS_DEPLOYMENT_TARGET": "17.0",
+        "LD_RUNPATH_SEARCH_PATHS": [
+          "$(inherited)",
+          "@executable_path/Frameworks"
+        ],
+        "OTHER_LDFLAGS": [
+          "$(inherited)",
+          "-Xlinker",
+          "-interposable"
+        ],
+        "OTHER_SWIFT_FLAGS": [
+          "$(inherited)",
+          "-Xfrontend",
+          "-enable-implicit-dynamic"
+        ],
+        "PRODUCT_BUNDLE_IDENTIFIER": "com.hotreload.DemoApp",
+        "PRODUCT_NAME": "$(TARGET_NAME)",
+        "SWIFT_VERSION": "5.0",
+        "TARGETED_DEVICE_FAMILY": "1,2"
+      },
+      "name": "Debug"
+    },
+    "5B0E53E82408441DAF5AF7BB": {
+      "isa": "XCBuildConfiguration",
+      "buildSettings": {
+        "INFOPLIST_FILE": "Sources/DemoApp/Info.plist",
+        "IPHONEOS_DEPLOYMENT_TARGET": "17.0",
+        "LD_RUNPATH_SEARCH_PATHS": [
+          "$(inherited)",
+          "@executable_path/Frameworks"
+        ],
+        "OTHER_LDFLAGS": [
+          "$(inherited)",
+          "-Xlinker",
+          "-interposable"
+        ],
+        "PRODUCT_BUNDLE_IDENTIFIER": "com.hotreload.DemoApp",
+        "PRODUCT_NAME": "$(TARGET_NAME)",
+        "SWIFT_VERSION": "5.0",
+        "TARGETED_DEVICE_FAMILY": "1,2"
+      },
+      "name": "Release"
+    },
+    "0B79450CDF8B463F8916A67D": {
+      "isa": "XCConfigurationList",
+      "buildConfigurations": [
+        "03E868C593934A84BBABBA95",
+        "8FF02CBAE7714EF5A6365D75"
+      ],
+      "defaultConfigurationIsVisible": "NO",
+      "defaultConfigurationName": "Release"
+    },
+    "20A850EAA51E40139F7F891E": {
+      "isa": "XCConfigurationList",
+      "buildConfigurations": [
+        "75FE9C59FC2C424D9C12949A",
+        "5B0E53E82408441DAF5AF7BB"
+      ],
+      "defaultConfigurationIsVisible": "NO",
+      "defaultConfigurationName": "Release"
+    },
+    "SPM_PR01": {
+      "isa": "XCRemoteSwiftPackageReference",
+      "repositoryURL": "https://github.com/arimunandar/HotReloadKit",
+      "requirement": {
+        "branch": "main",
+        "kind": "branch"
+      }
+    },
+    "SPM_PD01": {
+      "isa": "XCSwiftPackageProductDependency",
+      "package": "SPM_PR01",
+      "productName": "HotReloadKit"
+    }
+  },
+  "rootObject": "F0964F5C60A94526ACA504DE"
+}
